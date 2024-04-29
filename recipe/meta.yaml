@@ -1,5 +1,5 @@
 {% set name = "compas_robots" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/compas_robots-{{ version }}.tar.gz
-  sha256: 5d5ec8674ad9652a025d9add01e8a03fc13cafd48c2abf2dc9a7a89f110c4e80
+  sha256: 2cd1bd5f919b3682a504e69e4d5424d78c1eabb3cd02db8dd633cd8acf039873
 
 build:
   number: 0
