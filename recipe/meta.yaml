@@ -19,8 +19,9 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - setuptools
   run:
-    - compas
+    - compas >=2.3,<3
     - python >=3.6
 
 test:
