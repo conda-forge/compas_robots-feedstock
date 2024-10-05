@@ -1,7 +1,6 @@
 {% set name = "compas_robots" %}
 {% set version = "0.6.0" %}
 
-
 package:
   name: {{ name|lower }}
   version: {{ version }}
