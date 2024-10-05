@@ -3,7 +3,7 @@ About compas_robots-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/compas_robots-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/gramaziokohler/compas_robots
+Home: https://github.com/compas-dev/compas_robots
 
 Package license: MIT
 

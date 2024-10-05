@@ -1,6 +1,5 @@
 {% set name = "compas_robots" %}
-{% set version = "0.5.0" %}
-
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/compas_robots-{{ version }}.tar.gz
-  sha256: ae2d600cd34f17420fe67cdc5fa7a3dc5bfc1ad5ebf32d6985f550adaed48c58
+  sha256: 84daf63eeea664dc9de5beb5cf944680444ef7c5a8f5605eab5910d735b538fc
 
 build:
   number: 0
@@ -21,7 +20,7 @@ requirements:
     - python >=3.6
     - setuptools
   run:
-    - compas >=2.3,<3
+    - compas >=2.4.3,<3
     - python >=3.6
 
 test:
